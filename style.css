@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    padding: 20px;
+}
+.logo{
+    margin-right: 400px;
+    margin-left: 50px;
+}
+.nav-bar-links{
+    display: flex;
+    gap: 120px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.heading-size{
+    display: flex;
+    flex-direction: column;
+
+}
+.first-h{
+    font-size: 80px;
+}
+.sec-h{
+    font-size: 150px;
+}
+.third-h{
+    font-size: 80px;
+}
