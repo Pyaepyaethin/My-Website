@@ -5,30 +5,31 @@
 .nav-bar{
     display: flex;
     align-items: center;
-    background-color: rgb(206, 112, 127);
+    /* background-color: rgb(206, 112, 127); */
+    background-color: #FBCC93;
     padding: 20px;
 }
 .logo{
-    margin-right: 400px;
-    margin-left: 50px;
+    margin-right: 350px;
+    margin-left: 140px;
 }
 .nav-bar-links{
     display: flex;
-    gap: 120px;
+    gap: 140px;
 }
 .nav-link{
     text-decoration: none;
     color: black;
+}
+.hero-page{
+    display: flex;
 }
 .heading-size{
     display: flex;
     flex-direction: column;
     line-height: 0.7;
     margin-top: 50px;
-    margin-left: 75px;
-}
-.hero-page{
-    display: flex;
+    margin-left: 150px;
 }
 .first-h{
     font-size: 80px;
@@ -36,7 +37,7 @@
 .sec-h{
     font-size: 170px;
     font-weight: 800;
-    color: rgb(232, 30, 30);
+    color: #C92A11;
 }
 .third-h{
     font-size: 80px;
@@ -44,20 +45,20 @@
 } 
 .hero-text{
     width: 550px;
-    margin-left: 75px;
+    margin-left: 150px;
     margin-top: 50px;
 }
 .hero-text-design{
     color: gray;
 }
 .buttons{
-    padding-left: 75px;
+    padding-left: 150px;
     padding-top: 50px;
 }
 .red-button{
-    background-color: rgb(232, 30, 30);
+    background-color:#C92A11;
     color: white;
-    border-color:  rgb(232, 30, 30);
+    border-color:  #C92A11;
     border-radius: 30px;
     width: 206px;
     padding-top: 15px;
@@ -72,4 +73,8 @@
     width: 150px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.hero-pic{
+    padding-top: 50px;
+    padding-left: 110px;
 }
