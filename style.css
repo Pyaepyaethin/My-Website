@@ -49,7 +49,9 @@
     margin-top: 50px;
 }
 .hero-text-design{
+    word-spacing: 5px;
     color: gray;
+    text-align: justify;
 }
 .buttons{
     padding-left: 150px;
