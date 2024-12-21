@@ -93,3 +93,101 @@
     padding-top: 50px;
     padding-left: 110px;
 }
+.food-menu{
+    height: 8000px;
+    background-color: rgb(247, 234, 218);
+}
+.food-items{
+    display: flex;
+    gap: 30px;
+}
+/* .menu-heading{
+    color: #C92A11;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 150px;
+    padding-top: 30px;
+} */
+.sec-menu-heading{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 1000;
+    margin-left: 400px;
+    padding-top: 50px;
+}
+.burger-div{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.burger-div:hover{
+    background-color: #FFB936;
+    /* transition-timing-function: ease-in-out; */
+    transition : 1s ease-in;
+}
+.burger-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+.burger-line{
+    background-color: #C92A11;
+    width: 80px;
+    height: 3px;
+    margin-left: 115px;
+    margin-top: 50px;
+}
+.burger-text{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.burger-text-sec{
+    color: #C92A11;
+    font-size: small;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+/* Fries */
+.fries-div{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.fries-div:hover{
+    background-color: #FFB936;
+    /* transition-timing-function: ease-in-out; */
+    transition : 1s ease-in;
+}
+.fries-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.fries-line{
+    background-color: #C92A11;
+    width: 80px;
+    height: 3px;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+.fries-text{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.fries-text-sec{
+    color: #C92A11;
+    font-size: small;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 100px;
+}
