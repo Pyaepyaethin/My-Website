@@ -94,12 +94,18 @@
     padding-left: 110px;
 }
 .food-menu{
-    height: 8000px;
+    height: 2000px;
     background-color: rgb(247, 234, 218);
+}
+.food-row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .food-items{
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 /* .menu-heading{
     color: #C92A11;
@@ -119,7 +125,7 @@
     background-color: white;
     width: 300px;
     height: 500px;
-    margin-left: 150px;
+    /* margin-left: 125px; */
     margin-top: 50px;
     border-radius: 10px;
 }
@@ -266,4 +272,355 @@
     font-weight: 100;
     margin-top: 10px;
     margin-left: 100px;
+}
+/* Sec-Row */
+.sec-row-menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+/* Ruti */
+.ruti-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.ruti-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.ruti-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ruti-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ruti-orginal-price{
+    color: #C92A11;
+}
+.ruti-cost{
+    color: grey;
+}
+.ruti-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Burger-two */
+.burger-two-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.burger-two-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.burger-two-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.burger-two-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.burger-two-orginal-price{
+    color: #C92A11;
+}
+.burger-two-cost{
+    color: grey;
+}
+.burger-two-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Pasta-two */
+.pasta-two-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.pasta-two-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.pasta-two-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.pasta-two-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pasta-two-orginal-price{
+    color: #C92A11;
+}
+.pasta-two-cost{
+    color: grey;
+}
+.pasta-two-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Pizza-two */
+.pizza-two-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.pizza-two-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.pizza-two-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.pizza-two-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pizza-two-orginal-price{
+    color: #C92A11;
+}
+.pizza-two-cost{
+    color: grey;
+}
+.pizza-two-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Third-Row */
+.third-row-menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+/* Set-One */
+.set-one-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+}
+.set-one-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.set-one-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.set-one-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.set-one-orginal-price{
+    color: #C92A11;
+}
+.set-one-cost{
+    color: grey;
+}
+.set-one-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Set-two */
+.set-two-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+}
+.set-two-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.set-two-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.set-two-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.set-two-orginal-price{
+    color: #C92A11;
+}
+.set-two-cost{
+    color: grey;
+}
+.set-two-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Set-three */
+.set-three-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+}
+.set-three-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.set-three-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.set-three-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.set-three-orginal-price{
+    color: #C92A11;
+}
+.set-three-cost{
+    color: grey;
+}
+.set-three-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+/* Set-four */
+.set-four-over-all:hover{
+    /* background-color: white; */
+    /* height: 500px; */
+    /* padding: 10px 0; */
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.set-four-div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+}
+.set-four-pic{
+    width: 220px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.set-four-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.set-four-discount{
+    background-color: #FFB936;
+    padding: 5px;
+    border-radius: 5px;
+}
+.set-four-orginal-price{
+    color: #C92A11;
+}
+.set-four-cost{
+    color: grey;
+}
+.set-four-text{
+    font-weight: 200;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
