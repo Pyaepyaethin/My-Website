@@ -624,3 +624,49 @@
     align-items: center;
     padding: 10px 0;
 }
+.boxes{
+    height: 800px;
+}
+.first-box{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    background-color:#31241D;
+    display: flex;
+}
+.first-box-texts{
+    position:absolute;
+}
+.first-box-text{
+    font-size: 18px;
+    color: #C92A11;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.first-box-sec-text{
+    color: white;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.first-box-third-text{
+    color: white;
+    font-size: 50px;
+    padding-left: 40px;
+}
+.first-box-fourth-text{
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.first-box-fifth-text{
+    color: #FFB936;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.first-box-pic{
+    padding-left: 250px;
+    width: 250px;
+}
