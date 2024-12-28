@@ -626,6 +626,13 @@
 }
 .boxes{
     height: 800px;
+    background-color: #F4F1EA;
+    padding-top: 50px;
+}
+.two-boxes{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 .first-box{
     width: 500px;
@@ -669,4 +676,62 @@
 .first-box-pic{
     padding-left: 250px;
     width: 250px;
+}
+.sec-box{
+    width: 700px;
+    height: 350px;
+    background-color: #C92A11;
+    border-radius: 20px;
+    display: flex;
+}
+.sec-box-texts{
+    padding-left: 40px;
+    padding-top: 55px;
+}
+.sec-box-text{
+    color: #FFB936;
+    font-size: 40px;
+}
+.sec-box-text-centre{
+    display: flex;
+    align-items: center;
+}
+.sec-box-sec-text{
+    color: white;
+    font-size: 50px;
+}
+.sec-box-third-text{
+    color: #FFB936;
+    font-size: 40px;
+}
+.sec-box-third-text-in{
+    color: #FFB936;
+    font-size: 70px;
+}
+.sec-box-fourth-text{
+    color: white;
+    font-size: 30px;
+}
+.sec-box-pic{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.logo-heading{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.logo-line{
+    width: 900px;
+}
+.logo-heading-colour{
+    color: #FFB936;
+}
+.logos-position{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 70px;
 }
