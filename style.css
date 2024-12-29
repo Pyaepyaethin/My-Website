@@ -855,9 +855,54 @@
     margin-top: 200px;
     margin-left: 120px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 .create-reservation-sec-box-text{
     color: white;
     margin-top: 50px;
-    margin-left: 100px;
+}
+.people{
+    width: 300px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.people-text{
+    color: white;
+}
+.ph{
+    width: 300px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.ph-number{
+    color: white;
+}
+.age{
+    width: 300px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.age-choosing{
+    color: white;
 }
