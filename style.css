@@ -736,7 +736,7 @@
     margin-top: 70px;
 }
 .ending{
-    height: 800px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -744,7 +744,7 @@
 }
 .delivery-box{
     width: 1200px;
-    height: 500px;
+    height: 550px;
     background-color: #00813E;
     border-radius: 20px;
     display: flex;
@@ -783,10 +783,81 @@
     margin-top: 30px;
     margin-left: 70px;
 }
+.delivery-button:hover{
+    background-color: #FFB936;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
 .delivery-button-text{
     font-size: 12px;
     margin-left: 50px;
 }
 .delivery-box-pic{
-    padding-left: 50px;
+    padding-left: 550px;
+    position: absolute;
+    z-index: 100;
+    top: 516%;
+}
+.create-reservation{
+    width: 100%;
+    height: 700px;
+    background-color: #383838;
+    padding-left: 120px;
+    display: flex;
+}
+.create-reservation-text{
+    color: #C92A11;
+    font-size: 15px;
+    padding-top: 240px;
+}
+.create-reservation-sec-text{
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+}
+.create-reservation-third-text{
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+}
+.call-icon-div{
+    display: flex;
+    gap: 30px;
+}
+.call-icon-div-in{
+    width: 70px;
+    height: 70px;
+    background-color: #00813E;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+.call-icon{
+    width: 60px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.call-icon-texts{
+    margin-top: 50px;
+}
+.call-icon-text{
+    color: white;
+    font-size: 20px;
+}
+.call-icon-sec-text{
+    color: #00813E;
+    font-size: 50px;
+    font-weight: 700;
+}
+.create-reservation-sec-box{
+    width: 470px;
+    height: 500px;
+    background-color: #00813E;
+    margin-top: 200px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+.create-reservation-sec-box-text{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
 }
